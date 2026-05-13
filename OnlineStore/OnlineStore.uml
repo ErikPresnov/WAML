@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:WAML="http://model/schemas/WAML/_7qfzkE46EfGBh4Yxb1quvw/26" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://model/schemas/WAML/_7qfzkE46EfGBh4Yxb1quvw/26 WAMLProfile.profile.uml#_7qgaoE46EfGBh4Yxb1quvw">
+  <uml:Model xmi:id="_zDgegE4MEfGBh4Yxb1quvw" name="WAML">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_zI1qcE4MEfGBh4Yxb1quvw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="__fk9oE4MEfGBh4Yxb1quvw" name="ListView"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rfFY4E4OEfGBh4Yxb1quvw" name="ListComponent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u2wfUE4OEfGBh4Yxb1quvw" name="ItemComponent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_dup5cE4PEfGBh4Yxb1quvw" name="ItemsPath"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_jd4tIE4PEfGBh4Yxb1quvw" name="ItemsRequest"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mp2S0E4PEfGBh4Yxb1quvw" name="ItemsResponse"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rYnIAE4PEfGBh4Yxb1quvw" name="ItemsEndpoint"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_tzzYEE4PEfGBh4Yxb1quvw" name="ItemsQuery"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wHhuME4PEfGBh4Yxb1quvw" name="ItemDatabase"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_x55qwE4PEfGBh4Yxb1quvw" name="ItemsResult"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_LLhgAE4QEfGBh4Yxb1quvw" client="_rfFY4E4OEfGBh4Yxb1quvw" supplier="_jd4tIE4PEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Ohf9UE4QEfGBh4Yxb1quvw" client="_rYnIAE4PEfGBh4Yxb1quvw" supplier="_DHOtEE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_Q0UUgE4QEfGBh4Yxb1quvw" client="_rYnIAE4PEfGBh4Yxb1quvw" supplier="_jd4tIE4PEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_SPuikE4QEfGBh4Yxb1quvw" client="_rYnIAE4PEfGBh4Yxb1quvw" supplier="_tzzYEE4PEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2tfgIE4QEfGBh4Yxb1quvw" name="Title"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_R-ZFgE4REfGBh4Yxb1quvw" name="Price"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_TPuxkE4REfGBh4Yxb1quvw" name="Description"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_VGZYQE4REfGBh4Yxb1quvw" name="Image"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_zAo-cE4REfGBh4Yxb1quvw" client="_VGZYQE4REfGBh4Yxb1quvw" supplier="_u2wfUE4OEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0aGEsE4REfGBh4Yxb1quvw" client="_2tfgIE4QEfGBh4Yxb1quvw" supplier="_u2wfUE4OEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_111C4E4REfGBh4Yxb1quvw" client="_TPuxkE4REfGBh4Yxb1quvw" supplier="_u2wfUE4OEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_3ORcgE4REfGBh4Yxb1quvw" client="_R-ZFgE4REfGBh4Yxb1quvw" supplier="_u2wfUE4OEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZsqjUE4SEfGBh4Yxb1quvw" name="ItemData"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_VivLoE41EfGBh4Yxb1quvw" client="_wHhuME4PEfGBh4Yxb1quvw" supplier="_tzzYEE4PEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_aM9fEE41EfGBh4Yxb1quvw" client="_wHhuME4PEfGBh4Yxb1quvw" supplier="_x55qwE4PEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zcq5sE4-EfGS3eoVeWxS8Q" name="ItemDetailView"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3EfU8E4-EfGS3eoVeWxS8Q" name="ItemDetailPath"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_5vs-AE4-EfGS3eoVeWxS8Q" name="ItemDetailComponent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_hU60sE4_EfGS3eoVeWxS8Q" name="Header"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gVpE0E5GEfGS3eoVeWxS8Q" name="HomeViewAnchor"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_90uuIE5IEfGS3eoVeWxS8Q" client="_gVpE0E5GEfGS3eoVeWxS8Q" supplier="_hU60sE4_EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ZzuvoE5JEfGS3eoVeWxS8Q" name="SearchBar"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_unkK8E5JEfGS3eoVeWxS8Q" client="_gVpE0E5GEfGS3eoVeWxS8Q" supplier="__fk9oE4MEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_BfG4sE5KEfGS3eoVeWxS8Q" name="ItemDetailRequest"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DHOtEE5KEfGS3eoVeWxS8Q" name="ItemDetailResponse"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_D4GwYE5KEfGS3eoVeWxS8Q" name="ItemDetailEndpoint"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_E5YAIE5KEfGS3eoVeWxS8Q" name="ItemDetailQuery"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FdvRcE5KEfGS3eoVeWxS8Q" name="ItemDetailResult"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_W29AAE5KEfGS3eoVeWxS8Q" name="ItemDetailDatabase"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_hASAcE5KEfGS3eoVeWxS8Q" client="_5vs-AE4-EfGS3eoVeWxS8Q" supplier="_BfG4sE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_mJTvwE5KEfGS3eoVeWxS8Q" client="_D4GwYE5KEfGS3eoVeWxS8Q" supplier="_BfG4sE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_nKxMwE5KEfGS3eoVeWxS8Q" client="_D4GwYE5KEfGS3eoVeWxS8Q" supplier="_DHOtEE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_oXKucE5KEfGS3eoVeWxS8Q" client="_5vs-AE4-EfGS3eoVeWxS8Q" supplier="_DHOtEE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_pVYqME5KEfGS3eoVeWxS8Q" client="_D4GwYE5KEfGS3eoVeWxS8Q" supplier="_E5YAIE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_qdycsE5KEfGS3eoVeWxS8Q" client="_W29AAE5KEfGS3eoVeWxS8Q" supplier="_E5YAIE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_s7NhYE5KEfGS3eoVeWxS8Q" client="_W29AAE5KEfGS3eoVeWxS8Q" supplier="_FdvRcE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_uGK4oE5KEfGS3eoVeWxS8Q" client="_D4GwYE5KEfGS3eoVeWxS8Q" supplier="_FdvRcE5KEfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uNzcIE7CEfGbwIYPFBOyXQ" name="AddToCart"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_IEuW0E7DEfGbwIYPFBOyXQ" client="_uNzcIE7CEfGbwIYPFBOyXQ" supplier="_u2wfUE4OEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_OBA5oE7EEfGbwIYPFBOyXQ" name="ViewItemDetails"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_yuLlIE7EEfGbwIYPFBOyXQ" client="_OBA5oE7EEfGbwIYPFBOyXQ" supplier="_u2wfUE4OEfGBh4Yxb1quvw"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_107ToE7EEfGbwIYPFBOyXQ" client="_OBA5oE7EEfGbwIYPFBOyXQ" supplier="_zcq5sE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WY244E7FEfGbwIYPFBOyXQ" name="CartAnchor"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_eXMBYE7FEfGbwIYPFBOyXQ" client="_WY244E7FEfGbwIYPFBOyXQ" supplier="_hU60sE4_EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_qCX2IE7FEfGbwIYPFBOyXQ" name="CartView"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wtzMUE7FEfGbwIYPFBOyXQ" name="CartPath"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_gY7aME7GEfGbwIYPFBOyXQ" client="_WY244E7FEfGbwIYPFBOyXQ" supplier="_qCX2IE7FEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aWKxEE7HEfGbwIYPFBOyXQ" name="ItemDetailData"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_WYvcwE7IEfGbwIYPFBOyXQ" name="CartData"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mOP84E7IEfGbwIYPFBOyXQ" name="CartComponent"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_uKNG0E7IEfGbwIYPFBOyXQ" name="SubmitPurchase"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="__c26YE7IEfGbwIYPFBOyXQ" name="PurchaseResponse"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0bRhoE7bEfGbwIYPFBOyXQ" name="item adds to" client="_uNzcIE7CEfGbwIYPFBOyXQ" supplier="_WYvcwE7IEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SL61AE7eEfGbwIYPFBOyXQ" name="DetailTitle"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_YJ8SoE7eEfGbwIYPFBOyXQ" name="DetailPrice"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Z8kt4E7eEfGbwIYPFBOyXQ" name="DetailDescription"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_zhJUUE7eEfGbwIYPFBOyXQ" client="_SL61AE7eEfGbwIYPFBOyXQ" supplier="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0wgDYE7eEfGbwIYPFBOyXQ" client="_YJ8SoE7eEfGbwIYPFBOyXQ" supplier="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_2CnLgE7eEfGbwIYPFBOyXQ" client="_Z8kt4E7eEfGbwIYPFBOyXQ" supplier="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Fa91kE7fEfGbwIYPFBOyXQ" name="DetailImage"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_M3PZ4E7fEfGbwIYPFBOyXQ" client="_Fa91kE7fEfGbwIYPFBOyXQ" supplier="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u0dGQE7fEfGbwIYPFBOyXQ" name="Reviews"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_1RBhEE7fEfGbwIYPFBOyXQ" client="_u0dGQE7fEfGbwIYPFBOyXQ" supplier="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_AJYxwE7gEfGbwIYPFBOyXQ" name="DetailAddToCart"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_JRrzAE7gEfGbwIYPFBOyXQ" name="detail adds to" client="_AJYxwE7gEfGbwIYPFBOyXQ" supplier="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_K77HQE7gEfGbwIYPFBOyXQ" client="_AJYxwE7gEfGbwIYPFBOyXQ" supplier="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pw7skE7gEfGbwIYPFBOyXQ" name="Total"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_vMfWUE7gEfGbwIYPFBOyXQ" client="_pw7skE7gEfGbwIYPFBOyXQ" supplier="_mOP84E7IEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_6Ad2QE7gEfGbwIYPFBOyXQ" client="_mOP84E7IEfGbwIYPFBOyXQ" supplier="_uKNG0E7IEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-Ml4cE7gEfGbwIYPFBOyXQ" name="CartEndpoint"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-5h28E7gEfGbwIYPFBOyXQ" name="CartQuery"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="__b6LQE7gEfGbwIYPFBOyXQ" name="CartDatabase"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="__0dOIE7gEfGbwIYPFBOyXQ" name="CartResult"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_w-6gwE7hEfGbwIYPFBOyXQ" client="_-Ml4cE7gEfGbwIYPFBOyXQ" supplier="_uKNG0E7IEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_0Q0WYE7hEfGbwIYPFBOyXQ" client="_-Ml4cE7gEfGbwIYPFBOyXQ" supplier="_-5h28E7gEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_4c_b4E7hEfGbwIYPFBOyXQ" client="_-Ml4cE7gEfGbwIYPFBOyXQ" supplier="__c26YE7IEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_76bMEE7hEfGbwIYPFBOyXQ" client="_mOP84E7IEfGbwIYPFBOyXQ" supplier="__c26YE7IEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_AKMYIE7iEfGbwIYPFBOyXQ" client="_-Ml4cE7gEfGbwIYPFBOyXQ" supplier="__0dOIE7gEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_HFum4E7iEfGbwIYPFBOyXQ" client="__b6LQE7gEfGbwIYPFBOyXQ" supplier="__0dOIE7gEfGbwIYPFBOyXQ"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_KSWT4E7iEfGbwIYPFBOyXQ" client="__b6LQE7gEfGbwIYPFBOyXQ" supplier="_-5h28E7gEfGbwIYPFBOyXQ"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jLjjAE47EfGS3eoVeWxS8Q">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jLkKEE47EfGS3eoVeWxS8Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="WAMLProfile.profile.uml#_7qgaoE46EfGBh4Yxb1quvw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="WAMLProfile.profile.uml#_KzJPYE0XEfG6MI8nW1RJhg"/>
+    </profileApplication>
+  </uml:Model>
+  <WAML:Component xmi:id="_lGHLME47EfGS3eoVeWxS8Q" base_Class="_u2wfUE4OEfGBh4Yxb1quvw"/>
+  <WAML:Primitive xmi:id="_mGhfUE47EfGS3eoVeWxS8Q" base_Class="_VGZYQE4REfGBh4Yxb1quvw"/>
+  <WAML:ExistsIn xmi:id="_nIpqsE47EfGS3eoVeWxS8Q" base_Dependency="_0aGEsE4REfGBh4Yxb1quvw"/>
+  <WAML:ExistsIn xmi:id="_oITw4E47EfGS3eoVeWxS8Q" base_Dependency="_zAo-cE4REfGBh4Yxb1quvw"/>
+  <WAML:ExistsIn xmi:id="_puzNkE47EfGS3eoVeWxS8Q" base_Dependency="_111C4E4REfGBh4Yxb1quvw"/>
+  <WAML:ExistsIn xmi:id="_qqYsEE47EfGS3eoVeWxS8Q" base_Dependency="_3ORcgE4REfGBh4Yxb1quvw"/>
+  <WAML:Primitive xmi:id="_s9TJ4E47EfGS3eoVeWxS8Q" base_Class="_2tfgIE4QEfGBh4Yxb1quvw"/>
+  <WAML:Primitive xmi:id="_t8k1kE47EfGS3eoVeWxS8Q" base_Class="_TPuxkE4REfGBh4Yxb1quvw"/>
+  <WAML:Primitive xmi:id="_u68iUE47EfGS3eoVeWxS8Q" base_Class="_R-ZFgE4REfGBh4Yxb1quvw"/>
+  <WAML:Database xmi:id="_v51zgE47EfGS3eoVeWxS8Q" base_Class="_wHhuME4PEfGBh4Yxb1quvw"/>
+  <WAML:DBResponse xmi:id="_xO7-ME47EfGS3eoVeWxS8Q" Content="_508KsE47EfGS3eoVeWxS8Q" base_Class="_x55qwE4PEfGBh4Yxb1quvw"/>
+  <WAML:Endpoint xmi:id="_ySjXUE47EfGS3eoVeWxS8Q" Path="_44phkE47EfGS3eoVeWxS8Q" base_Class="_rYnIAE4PEfGBh4Yxb1quvw" Functionality="findItems"/>
+  <WAML:HTTPResponse xmi:id="_zQ2yoE47EfGS3eoVeWxS8Q" StatusCode="200" Body="_508KsE47EfGS3eoVeWxS8Q" base_Class="_mp2S0E4PEfGBh4Yxb1quvw"/>
+  <WAML:Component xmi:id="_0LIpkE47EfGS3eoVeWxS8Q" base_Class="_rfFY4E4OEfGBh4Yxb1quvw" ComposedOf="_lGHLME47EfGS3eoVeWxS8Q"/>
+  <WAML:HTTPRequest xmi:id="_1_sXcE47EfGS3eoVeWxS8Q" Path="_44phkE47EfGS3eoVeWxS8Q" base_Class="_jd4tIE4PEfGBh4Yxb1quvw"/>
+  <WAML:DBQuery xmi:id="_2525oE47EfGS3eoVeWxS8Q" base_Class="_tzzYEE4PEfGBh4Yxb1quvw"/>
+  <WAML:View xmi:id="_4AvpME47EfGS3eoVeWxS8Q" Path="_44phkE47EfGS3eoVeWxS8Q" base_Class="__fk9oE4MEfGBh4Yxb1quvw" ComposedOf="_AqoEkE5GEfGS3eoVeWxS8Q _0LIpkE47EfGS3eoVeWxS8Q"/>
+  <WAML:Path xmi:id="_44phkE47EfGS3eoVeWxS8Q" PathTemplate="/items" base_Class="_dup5cE4PEfGBh4Yxb1quvw"/>
+  <WAML:DataElement xmi:id="_508KsE47EfGS3eoVeWxS8Q" base_Class="_ZsqjUE4SEfGBh4Yxb1quvw"/>
+  <WAML:Returns xmi:id="_RgZTYE48EfGS3eoVeWxS8Q" base_Dependency="_aM9fEE41EfGBh4Yxb1quvw"/>
+  <WAML:Returns xmi:id="_TWstsE48EfGS3eoVeWxS8Q" base_Dependency="_Ohf9UE4QEfGBh4Yxb1quvw"/>
+  <WAML:Sends xmi:id="_VMg_0E48EfGS3eoVeWxS8Q" base_Dependency="_LLhgAE4QEfGBh4Yxb1quvw"/>
+  <WAML:Sends xmi:id="_XVbNEE48EfGS3eoVeWxS8Q" base_Dependency="_SPuikE4QEfGBh4Yxb1quvw"/>
+  <WAML:Executes xmi:id="_Yd7tQE48EfGS3eoVeWxS8Q" base_Dependency="_VivLoE41EfGBh4Yxb1quvw"/>
+  <WAML:Handles xmi:id="_Z2OV4E48EfGS3eoVeWxS8Q" base_Dependency="_Q0UUgE4QEfGBh4Yxb1quvw"/>
+  <WAML:View xmi:id="_YvEZME4_EfGS3eoVeWxS8Q" Path="_bexgsE4_EfGS3eoVeWxS8Q" base_Class="_zcq5sE4-EfGS3eoVeWxS8Q" ComposedOf="_AqoEkE5GEfGS3eoVeWxS8Q _6--MgE5JEfGS3eoVeWxS8Q"/>
+  <WAML:Path xmi:id="_bexgsE4_EfGS3eoVeWxS8Q" PathTemplate="/items/{itemId}" base_Class="_3EfU8E4-EfGS3eoVeWxS8Q">
+    <PathParameters>itemId</PathParameters>
+  </WAML:Path>
+  <WAML:Component xmi:id="_AqoEkE5GEfGS3eoVeWxS8Q" base_Class="_hU60sE4_EfGS3eoVeWxS8Q"/>
+  <WAML:Anchor xmi:id="_5dN7UE5IEfGS3eoVeWxS8Q" base_Class="_gVpE0E5GEfGS3eoVeWxS8Q"/>
+  <WAML:Primitive xmi:id="_gXsL4E5JEfGS3eoVeWxS8Q" base_Class="_ZzuvoE5JEfGS3eoVeWxS8Q"/>
+  <WAML:ExistsIn xmi:id="_pZBCcE5JEfGS3eoVeWxS8Q" base_Dependency="_90uuIE5IEfGS3eoVeWxS8Q"/>
+  <WAML:TargetsView xmi:id="_xIpnoE5JEfGS3eoVeWxS8Q" base_Dependency="_unkK8E5JEfGS3eoVeWxS8Q"/>
+  <WAML:Component xmi:id="_6--MgE5JEfGS3eoVeWxS8Q" base_Class="_5vs-AE4-EfGS3eoVeWxS8Q"/>
+  <WAML:Database xmi:id="_ZL2a0E5KEfGS3eoVeWxS8Q" base_Class="_W29AAE5KEfGS3eoVeWxS8Q"/>
+  <WAML:HTTPRequest xmi:id="_KjppoE6-EfGbwIYPFBOyXQ" Path="_bexgsE4_EfGS3eoVeWxS8Q" base_Class="_BfG4sE5KEfGS3eoVeWxS8Q"/>
+  <WAML:HTTPResponse xmi:id="_MQGkYE6-EfGbwIYPFBOyXQ" StatusCode="200" Body="_f4FhgE7HEfGbwIYPFBOyXQ" base_Class="_DHOtEE5KEfGS3eoVeWxS8Q"/>
+  <WAML:DBQuery xmi:id="_Noy1oE6-EfGbwIYPFBOyXQ" base_Class="_E5YAIE5KEfGS3eoVeWxS8Q"/>
+  <WAML:DBResponse xmi:id="_Pz6pYE6-EfGbwIYPFBOyXQ" Content="_f4FhgE7HEfGbwIYPFBOyXQ" base_Class="_FdvRcE5KEfGS3eoVeWxS8Q"/>
+  <WAML:ExistsIn xmi:id="_KYZpoE7DEfGbwIYPFBOyXQ" base_Dependency="_IEuW0E7DEfGbwIYPFBOyXQ"/>
+  <WAML:Primitive xmi:id="_U2NFQE7DEfGbwIYPFBOyXQ" base_Class="_uNzcIE7CEfGbwIYPFBOyXQ"/>
+  <WAML:Anchor xmi:id="_Puz4ME7EEfGbwIYPFBOyXQ" base_Class="_OBA5oE7EEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_0Iyh8E7EEfGbwIYPFBOyXQ" base_Dependency="_yuLlIE7EEfGbwIYPFBOyXQ"/>
+  <WAML:TargetsView xmi:id="_4laeQE7EEfGbwIYPFBOyXQ" base_Dependency="_107ToE7EEfGbwIYPFBOyXQ"/>
+  <WAML:Anchor xmi:id="_dYdIQE7FEfGbwIYPFBOyXQ" base_Class="_WY244E7FEfGbwIYPFBOyXQ"/>
+  <WAML:View xmi:id="_vyOU4E7FEfGbwIYPFBOyXQ" Path="_CckUIE7GEfGbwIYPFBOyXQ" base_Class="_qCX2IE7FEfGbwIYPFBOyXQ" ComposedOf="_AqoEkE5GEfGS3eoVeWxS8Q _t1PjcE7IEfGbwIYPFBOyXQ"/>
+  <WAML:Path xmi:id="_CckUIE7GEfGbwIYPFBOyXQ" PathTemplate="/cart/{cartId}" base_Class="_wtzMUE7FEfGbwIYPFBOyXQ">
+    <PathParameters>cartId</PathParameters>
+  </WAML:Path>
+  <WAML:TargetsView xmi:id="_owUi8E7GEfGbwIYPFBOyXQ" base_Dependency="_gY7aME7GEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_qaJngE7GEfGbwIYPFBOyXQ" base_Dependency="_eXMBYE7FEfGbwIYPFBOyXQ"/>
+  <WAML:DataElement xmi:id="_f4FhgE7HEfGbwIYPFBOyXQ" base_Class="_aWKxEE7HEfGbwIYPFBOyXQ"/>
+  <WAML:DataElement xmi:id="_qZ-9gE7IEfGbwIYPFBOyXQ" base_Class="_WYvcwE7IEfGbwIYPFBOyXQ"/>
+  <WAML:Component xmi:id="_t1PjcE7IEfGbwIYPFBOyXQ" base_Class="_mOP84E7IEfGbwIYPFBOyXQ" ComposedOf="_lGHLME47EfGS3eoVeWxS8Q"/>
+  <WAML:Endpoint xmi:id="_IUDkkE7JEfGbwIYPFBOyXQ" Path="_bexgsE4_EfGS3eoVeWxS8Q" base_Class="_D4GwYE5KEfGS3eoVeWxS8Q" Functionality="getDetails"/>
+  <WAML:Sends xmi:id="_L8Bv0E7UEfGbwIYPFBOyXQ" base_Dependency="_hASAcE5KEfGS3eoVeWxS8Q"/>
+  <WAML:Receives xmi:id="_eozYAE7UEfGbwIYPFBOyXQ" base_Dependency="_oXKucE5KEfGS3eoVeWxS8Q"/>
+  <WAML:Handles xmi:id="_83XBUE7UEfGbwIYPFBOyXQ" base_Dependency="_mJTvwE5KEfGS3eoVeWxS8Q"/>
+  <WAML:Returns xmi:id="_hMFXoE7VEfGbwIYPFBOyXQ" base_Dependency="_nKxMwE5KEfGS3eoVeWxS8Q"/>
+  <WAML:Receives xmi:id="_irswQE7VEfGbwIYPFBOyXQ" base_Dependency="_uGK4oE5KEfGS3eoVeWxS8Q"/>
+  <WAML:Sends xmi:id="_mEtTcE7VEfGbwIYPFBOyXQ" base_Dependency="_pVYqME5KEfGS3eoVeWxS8Q"/>
+  <WAML:Executes xmi:id="_npEpME7VEfGbwIYPFBOyXQ" base_Dependency="_qdycsE5KEfGS3eoVeWxS8Q"/>
+  <WAML:Returns xmi:id="_q4ImME7VEfGbwIYPFBOyXQ" base_Dependency="_s7NhYE5KEfGS3eoVeWxS8Q"/>
+  <WAML:Primitive xmi:id="_gZ8Z8E7eEfGbwIYPFBOyXQ" base_Class="_SL61AE7eEfGbwIYPFBOyXQ"/>
+  <WAML:Primitive xmi:id="_i6iucE7eEfGbwIYPFBOyXQ" base_Class="_YJ8SoE7eEfGbwIYPFBOyXQ"/>
+  <WAML:Primitive xmi:id="_lx8ZYE7eEfGbwIYPFBOyXQ" base_Class="_Z8kt4E7eEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_86jTsE7eEfGbwIYPFBOyXQ" base_Dependency="_zhJUUE7eEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_-eRJME7eEfGbwIYPFBOyXQ" base_Dependency="_0wgDYE7eEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="__wFWYE7eEfGbwIYPFBOyXQ" base_Dependency="_2CnLgE7eEfGbwIYPFBOyXQ"/>
+  <WAML:Primitive xmi:id="_HLqXIE7fEfGbwIYPFBOyXQ" base_Class="_Fa91kE7fEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_sB1NoE7fEfGbwIYPFBOyXQ" base_Dependency="_M3PZ4E7fEfGbwIYPFBOyXQ"/>
+  <WAML:Primitive xmi:id="_xQlxgE7fEfGbwIYPFBOyXQ" base_Class="_u0dGQE7fEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_2w6mgE7fEfGbwIYPFBOyXQ" base_Dependency="_1RBhEE7fEfGbwIYPFBOyXQ"/>
+  <WAML:Primitive xmi:id="_F0Hf8E7gEfGbwIYPFBOyXQ" base_Class="_AJYxwE7gEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_MSc1UE7gEfGbwIYPFBOyXQ" base_Dependency="_JRrzAE7gEfGbwIYPFBOyXQ"/>
+  <WAML:Primitive xmi:id="_skpxYE7gEfGbwIYPFBOyXQ" base_Class="_pw7skE7gEfGbwIYPFBOyXQ"/>
+  <WAML:ExistsIn xmi:id="_xWPREE7gEfGbwIYPFBOyXQ" base_Dependency="_vMfWUE7gEfGbwIYPFBOyXQ"/>
+  <WAML:HTTPRequest xmi:id="_0aGDoE7gEfGbwIYPFBOyXQ" Method="POST" Path="_CckUIE7GEfGbwIYPFBOyXQ" Body="_qZ-9gE7IEfGbwIYPFBOyXQ" base_Class="_uKNG0E7IEfGbwIYPFBOyXQ"/>
+  <WAML:Sends xmi:id="_72Mo0E7gEfGbwIYPFBOyXQ" base_Dependency="_6Ad2QE7gEfGbwIYPFBOyXQ"/>
+  <WAML:HTTPResponse xmi:id="_UHGA4E7hEfGbwIYPFBOyXQ" StatusCode="200" Body="_qZ-9gE7IEfGbwIYPFBOyXQ" base_Class="__c26YE7IEfGbwIYPFBOyXQ"/>
+  <WAML:Endpoint xmi:id="_XoY9YE7hEfGbwIYPFBOyXQ" Path="_CckUIE7GEfGbwIYPFBOyXQ" base_Class="_-Ml4cE7gEfGbwIYPFBOyXQ" Functionality="persistCart"/>
+  <WAML:DBQuery xmi:id="_fuTUkE7hEfGbwIYPFBOyXQ" Type="INSERT" Content="_qZ-9gE7IEfGbwIYPFBOyXQ" base_Class="_-5h28E7gEfGbwIYPFBOyXQ"/>
+  <WAML:Database xmi:id="_g_yxoE7hEfGbwIYPFBOyXQ" base_Class="__b6LQE7gEfGbwIYPFBOyXQ"/>
+  <WAML:DBResponse xmi:id="_kAHIAE7hEfGbwIYPFBOyXQ" Content="_qZ-9gE7IEfGbwIYPFBOyXQ" base_Class="__0dOIE7gEfGbwIYPFBOyXQ"/>
+  <WAML:Handles xmi:id="_yuBG4E7hEfGbwIYPFBOyXQ" base_Dependency="_w-6gwE7hEfGbwIYPFBOyXQ"/>
+  <WAML:Sends xmi:id="_134a0E7hEfGbwIYPFBOyXQ" base_Dependency="_0Q0WYE7hEfGbwIYPFBOyXQ"/>
+  <WAML:Returns xmi:id="_6n83kE7hEfGbwIYPFBOyXQ" base_Dependency="_4c_b4E7hEfGbwIYPFBOyXQ"/>
+  <WAML:Receives xmi:id="_9mPNoE7hEfGbwIYPFBOyXQ" base_Dependency="_76bMEE7hEfGbwIYPFBOyXQ"/>
+  <WAML:Receives xmi:id="_B3r0sE7iEfGbwIYPFBOyXQ" base_Dependency="_AKMYIE7iEfGbwIYPFBOyXQ"/>
+  <WAML:Returns xmi:id="_IdiuYE7iEfGbwIYPFBOyXQ" base_Dependency="_HFum4E7iEfGbwIYPFBOyXQ"/>
+  <WAML:Executes xmi:id="_Lzk2EE7iEfGbwIYPFBOyXQ" base_Dependency="_KSWT4E7iEfGbwIYPFBOyXQ"/>
+</xmi:XMI>
